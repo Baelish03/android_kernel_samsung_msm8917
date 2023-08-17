@@ -11353,8 +11353,6 @@
 
 	i2c@11 {
 		cell-index = <0xb>;
-		#address-cells = <1>;
-		#size-cells = <0>;
 		compatible = "i2c-gpio";
 		gpios = <0x1b 0x6 0x0 0x1b 0x7 0x0>;
 		i2c-gpio,delay-us = <0x2>;
