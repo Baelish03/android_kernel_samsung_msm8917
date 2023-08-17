@@ -11102,8 +11102,6 @@
 		i2c@22 {
 			status = "okay";
 			cell-index = <0x16>;
-			#address-cells = <0x1>;
-			#size-cells = <0x0>;
 			compatible = "i2c-gpio";
 			gpios = <0x1b 0x14 0x0 0x1b 0x15 0x0>;
 			i2c-gpio,delay-us = <0x2>;
